@@ -1,13 +1,7 @@
-jekyll-gulp-sass-browser-sync
+Site project using jekyll-gulp-sass-browser-sync
 =============================
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
-
-Here's a 1.5min [screencast](http://quick.as/pvrslgx) showing what you get.
-
-And here's a GIF showing the CSS injecting.
-
-![GIF](http://f.cl.ly/items/373y2E0e0i2p0E2O131g/test-gif.gif)
+This project uses Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
 ## System Preparation
 
@@ -50,4 +44,6 @@ gulp.task("deploy", ["jekyll-build"], function () {
         .pipe(deploy());
 });
 ```
-# Gulp-Jekyll-Sass-Boubon-Starter-Kit
+# Live project
+
+By all means use the files, but please keep in mind this a live project, as and such this is by no means finished. No bug checking has been done.
