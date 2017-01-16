@@ -6,7 +6,9 @@ header
     left: 0
     height: 100%
     background: #171f2a
+    z-index: 7777
     color: #fff
+
     a
         color: #fff
         text-decoration: none
@@ -23,7 +25,7 @@ header
     +mobile
         display: none
 
-nav
+#menu
     +span-columns(12)
     list-style: none
     display: block
@@ -36,23 +38,34 @@ nav
         padding: 10px 10px 10px 30px
         box-sizing: border-box
 
-        :hover
+        &:hover
             background-color: darken(#171f2a, 20%)
 
-    sub-nav
+    .sub-menu
+        list-style: none
         display: block
-        padding: 10px 10px 10px 60px
         box-sizing: border-box
+        padding: 0
+        margin: 0
 
-.header-contact
-    display: block
+        a
+            display: block
+            padding: 10px 10px 10px 45px
+            box-sizing: border-box
 
-    .tel
-        font-family: $serif-stack
-        font-size: 1.75em
-        font-weight: bold
-        margin-bottom: 15px
 
-    .email
-        font-size: 1.75em
-        font-weight: bold
+    .header-contact
+        display: block
+        padding: 30px
+        box-sizing: border-box
+        margin: 0
+
+        .tel
+            font-family: $serif-stack
+            font-size: 1.75em
+            font-weight: bold
+            margin-bottom: 15px
+
+        .email
+            font-size: 1.75em
+            font-weight: bold

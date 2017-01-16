@@ -320,6 +320,7 @@ header {
   left: 0;
   height: 100%;
   background: #171f2a;
+  z-index: 7777;
   color: #fff; }
   header:last-child {
     margin-right: 0; }
@@ -343,7 +344,7 @@ header {
     .logo {
       display: none; } }
 
-nav {
+#menu {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -353,26 +354,34 @@ nav {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
-  nav:last-child {
+  #menu:last-child {
     margin-right: 0; }
-  nav a {
+  #menu a {
     display: block;
     padding: 10px 10px 10px 30px;
     box-sizing: border-box; }
-    nav a :hover {
+    #menu a:hover {
       background-color: black; }
-  nav sub-nav {
+  #menu .sub-menu {
+    list-style: none;
     display: block;
-    padding: 10px 10px 10px 60px;
-    box-sizing: border-box; }
-
-.header-contact {
-  display: block; }
-  .header-contact .tel {
-    font-family: "Merriweather", Georgia, Times, serif;
-    font-size: 1.75em;
-    font-weight: bold;
-    margin-bottom: 15px; }
-  .header-contact .email {
-    font-size: 1.75em;
-    font-weight: bold; }
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; }
+    #menu .sub-menu a {
+      display: block;
+      padding: 10px 10px 10px 45px;
+      box-sizing: border-box; }
+  #menu .header-contact {
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0; }
+    #menu .header-contact .tel {
+      font-family: "Merriweather", Georgia, Times, serif;
+      font-size: 1.75em;
+      font-weight: bold;
+      margin-bottom: 15px; }
+    #menu .header-contact .email {
+      font-size: 1.75em;
+      font-weight: bold; }
