@@ -343,7 +343,7 @@ header {
     .logo {
       display: none; } }
 
-#menu {
+nav {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -353,23 +353,18 @@ header {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
-  #menu:last-child {
+  nav:last-child {
     margin-right: 0; }
-  #menu li a {
+  nav a {
     display: block;
     padding: 10px 10px 10px 30px;
     box-sizing: border-box; }
-  #menu li :hover {
-    background-color: black; }
-  #menu ul.sub-menu {
-    list-style: none;
+    nav a :hover {
+      background-color: black; }
+  nav sub-nav {
     display: block;
-    box-sizing: border-box;
-    padding: 0; }
-    #menu ul.sub-menu li a {
-      display: block;
-      padding: 10px 10px 10px 60px;
-      box-sizing: border-box; }
+    padding: 10px 10px 10px 60px;
+    box-sizing: border-box; }
 
 .header-contact {
   display: block; }

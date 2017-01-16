@@ -23,7 +23,7 @@ header
     +mobile
         display: none
 
-#menu
+nav
     +span-columns(12)
     list-style: none
     display: block
@@ -31,28 +31,18 @@ header
     padding: 0
     margin: 0
 
-    li
-
-        a
-            display: block
-            padding: 10px 10px 10px 30px
-            box-sizing: border-box
+    a
+        display: block
+        padding: 10px 10px 10px 30px
+        box-sizing: border-box
 
         :hover
             background-color: darken(#171f2a, 20%)
 
-    ul.sub-menu
-        list-style: none
+    sub-nav
         display: block
+        padding: 10px 10px 10px 60px
         box-sizing: border-box
-        padding: 0
-
-        li
-
-            a
-                display: block
-                padding: 10px 10px 10px 60px
-                box-sizing: border-box
 
 .header-contact
     display: block
