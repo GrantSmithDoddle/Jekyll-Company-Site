@@ -353,7 +353,9 @@ header {
   display: block;
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold; }
   #menu:last-child {
     margin-right: 0; }
   #menu a {
@@ -367,21 +369,24 @@ header {
     display: block;
     box-sizing: border-box;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    text-transform: lowercase;
+    font-weight: 400; }
     #menu .sub-menu a {
       display: block;
       padding: 10px 10px 10px 45px;
       box-sizing: border-box; }
-  #menu .header-contact {
-    display: block;
-    padding: 30px;
-    box-sizing: border-box;
-    margin: 0; }
-    #menu .header-contact .tel {
-      font-family: "Merriweather", Georgia, Times, serif;
-      font-size: 1.75em;
-      font-weight: bold;
-      margin-bottom: 15px; }
-    #menu .header-contact .email {
-      font-size: 1.75em;
-      font-weight: bold; }
+
+.header-contact {
+  display: block;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0; }
+  .header-contact .tel {
+    font-family: "Merriweather", Georgia, Times, serif;
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .header-contact .email {
+    font-size: 1.75em;
+    font-weight: bold; }
